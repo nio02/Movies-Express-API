@@ -3,7 +3,7 @@ import { readJSON } from '../utils.js'
 import { validateMovie, validatePartialMovie } from '../schemas/movies.js'
 import { randomUUID } from 'node:crypto'
 
-const movies = readJSON('../movies.json')
+const movies = readJSON('./movies.json')
 export const moviesRouter = Router()
 
 //Todas las peliculas
